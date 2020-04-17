@@ -13,7 +13,7 @@ package jdp2e.singleton.demo;
    public static synchronized MakeACaptain getCaptain()
    //public static  MakeACaptain getCaptain()
     { 
-	        
+	        int a=2;
 	    	 // Lazy initialization
 	    	 if (captain == null) 
 	    	 { 
